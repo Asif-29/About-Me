@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+/* navbar section styling */
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #0008;
+    opacity: 0.6;
+    line-height: 80px;
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+    transition: 0.8s all;
+    border-radius: 8px;
+}
+
+.nav-list {
+    float: right;
+    margin-right: 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.nav-list li:hover {
+    background-color: goldenrod;
+}
+
+/* about me section styling */
+.about {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("image/background.jpg");
+    background-size: cover;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff
+}
+
+.about-left {
+    position: relative;
+}
+
+.about-left-content {
+    position: absolute;
+    width: 66%
+}
+
+.about-left-content>div {
+    background: #12192c;
+    padding: 4rem 4rem 2.5rem 5rem;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.about-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-image img {
+    display: block;
+    width: 200px;
+}
+
+.shadow {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.about-left-content h2 {
+    font-size: 2rem;
+    margin: 2.2rem 0 0.6rem 0;
+    line-height: 1.2;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #B721FF;
+}
+
+.about-left-content h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-top: 1.2rem;
+}
+
+.icons {
+    background: #12192c;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem 0;
+    border-radius: 0 0 12px 12px;
+}
+
+.icons li {
+    background: #B721FF;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: 0 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.icons li:hover {
+    background: #edffec;
+    color: #000;
+}
+
+.about-right {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 5rem;
+    color: #fff;
+}
+
+.about-right h1 {
+    text-transform: uppercase;
+    color: gold;
+}
+
+.about-me {
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+/* footer section styling */
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
